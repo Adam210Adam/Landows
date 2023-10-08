@@ -1,0 +1,25 @@
+# LANDOWS
+
+## System Folders:
+    The System Folders are 0xmai64 and 0xmai86
+## Setup:
+    To setup this operating system, We need to interact with the Setup folder. First delete properties.mkd.
+    This will delete all of the last properties, You do not have to do this but this is for file safety, as
+    a previous installation may contain viruses, the operating system will use this corrupted data and will
+    brake. Then click on admin-package-landows-1.0.exe if you want to be admin. Else then click on user-pac
+    kage-landows-1.0.exe. To run the operating system extract it. More information at the Extraction Section.
+## Extraction:
+    To Extract this operating system extract os-ISS first. If you are admin you will find x936a6rule.wim a password is
+    required.
+
+## Booting it up...
+    To boot the system up click on xTDB.py.
+
+## Warnings + Disorders:
+    If you got this warning:
+        Running on ARM assembly
+        Warning: You are using a arm assembly machine learn more at Readme.md
+    This error is occuring beacause of a landows error process LLDA Landows Language Disorder Assembly, This is mostly
+    occuring as Landows is 32 bit mode. To remove this error you will have to edit IBSB bootloader option bit mode to
+    x16
+    
